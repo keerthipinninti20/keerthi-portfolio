@@ -2,6 +2,10 @@
 
 A personal professional portfolio website showcasing my skills, projects, achievements, education, and learning journey.
 
+## 🌐 Live Demo
+
+🔗 [View Live Portfolio](https://glittering-kelpie-13bdb7.netlify.app)
+
 ## 🚀 About
 
 I am Pinninti Keerthi, a Computer Science and Software Engineering student passionate about software development, problem-solving, data analysis, and continuous learning.
@@ -35,6 +39,7 @@ I am Pinninti Keerthi, a Computer Science and Software Engineering student passi
 
 - LinkedIn: https://www.linkedin.com/in/pinninti-keerthi-13307434b
 - GitHub: https://github.com/keerthipinninti20
+- Portfolio: https://glittering-kelpie-13bdb7.netlify.app
 
 ## 👩‍💻 Author
 
