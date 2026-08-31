@@ -1,51 +1,90 @@
-# Keerthi's Portfolio
+# 🌐 Personal Portfolio
 
-A personal professional portfolio website showcasing my skills, projects, achievements, education, and learning journey.
+Welcome to my personal portfolio website!
 
-## 🌐 Live Demo
+This portfolio showcases my skills, projects, education, achievements, certifications, and learning journey as a Computer Science and Software Engineering student.
 
-🔗 [View Live Portfolio](https://glittering-kelpie-13bdb7.netlify.app)
+## 🚀 Live Demo
 
-## 🚀 About
+🔗 Live Portfolio: https://keerthi-protfolio.netlify.app
 
-I am Pinninti Keerthi, a Computer Science and Software Engineering student passionate about software development, problem-solving, data analysis, and continuous learning.
+## 👩‍💻 About Me
 
-## 🛠️ Technologies Used
+Hi, I'm **Pinninti Keerthi**, a Computer Science and Software Engineering student passionate about technology, problem-solving, data analysis, and software development.
 
-- HTML5
-- CSS3
+I enjoy learning new technologies, building practical projects, and continuously improving my technical skills.
+
+## 🛠️ Skills
+
+- Python
+- Java
 - JavaScript
+- HTML
+- CSS
+- SQL
+- Git
+- GitHub
+- Data Analysis
+- Data Visualization
+- Problem Solving
 
-## 📂 Projects Included
+## 📂 Projects
 
-- PromptMate
-- Data Analysis & Visualization
-- Personal Portfolio Website
-- Responsive Landing Page
+### 1. PromptMate
+A web-based project designed to help users create structured and effective prompts for different topics.
 
-## ✨ Features
+**Technologies:** HTML, CSS, JavaScript
 
-- Responsive Design
-- Professional User Interface
-- Smooth Scroll Navigation
-- Scroll Reveal Animations
-- Projects Showcase
-- Skills Section
-- Achievements Section
-- Certifications & Learning Section
-- Contact Links
+### 2. Data Analysis & Visualization
+A project focused on analyzing datasets and presenting meaningful insights through charts and visualizations.
+
+**Technologies:** Python, Pandas, NumPy, Matplotlib
+
+### 3. Personal Portfolio
+A responsive professional portfolio website showcasing my skills, projects, education, achievements, and learning journey.
+
+**Technologies:** HTML, CSS, JavaScript
+
+### 4. Responsive Landing Page
+A modern and responsive landing page designed with a clean layout and user-friendly interface.
+
+**Technologies:** HTML, CSS
+
+## 🎓 Education
+
+- **B.Tech – Computer Science & Software Engineering**
+  - CGPA: 8.89
+  - Expected Graduation: 2028
+
+- **Intermediate – Sri Chaitanya Junior College**
+  - Percentage: 97%
+
+- **SSC – Havani High School**
+  - Percentage: 88.17%
+
+## 📜 Certifications & Learning
+
+- Introduction to Python – Analytics Vidhya
+- Web Development – EduSkills
+- Networking – Cisco Networking Academy
+- Technical Learning – NPTEL
+
+## 🌱 Currently Exploring
+
+- Java
+- Full Stack Web Development
 
 ## 🔗 Connect With Me
 
 - LinkedIn: https://www.linkedin.com/in/pinninti-keerthi-13307434b
 - GitHub: https://github.com/keerthipinninti20
-- Portfolio: https://glittering-kelpie-13bdb7.netlify.app
+- Portfolio: https://keerthi-protfolio.netlify.app
 
-## 👩‍💻 Author
+## 💻 Technologies Used
 
-**Pinninti Keerthi**
-
-Aspiring Software Developer | CSSE Student
+- HTML5
+- CSS3
+- JavaScript
 
 ---
 
