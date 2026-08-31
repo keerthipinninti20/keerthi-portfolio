@@ -9,17 +9,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header class="header">
+<!-- NAVBAR -->
+<header>
     <nav class="navbar">
         <a href="#home" class="logo">Keerthi<span>.</span></a>
 
@@ -27,115 +27,69 @@
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
-            <li><a href="#achievements">Achievements</a></li>
-            <li><a href="#certifications">Learning</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#certifications">Certificates</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 </header>
 
 
+<!-- HERO -->
 <section id="home" class="hero">
 
-    <div class="hero-content">
+    <p class="hero-tag">WELCOME TO MY PORTFOLIO</p>
 
-        <p class="hero-tag">
-            <span></span>
-            ASPIRING SOFTWARE DEVELOPER
-        </p>
+    <h1>Hi, I'm <span>Pinninti Keerthi</span></h1>
 
-        <p class="hello">Hello, I'm</p>
+    <h2>Aspiring Software Developer</h2>
 
-        <h1>Pinninti <span>Keerthi.</span></h1>
+    <p class="hero-description">
+        A Computer Science and Software Engineering student passionate about
+        technology, problem-solving, data analysis, and building meaningful
+        digital solutions.
+    </p>
 
-        <h2>Computer Science & Software Engineering Student</h2>
+    <div class="hero-buttons">
+        <a href="#projects" class="btn primary-btn">
+            View My Projects
+        </a>
 
-        <p class="hero-description">
-            A curious and determined student passionate about software development,
-            problem-solving, data analysis, and building meaningful digital solutions.
-        </p>
-
-        <div class="hero-buttons">
-            <a href="#projects" class="btn btn-primary">
-                View My Work <i class="fa-solid fa-arrow-right"></i>
-            </a>
-
-            <a href="#contact" class="btn btn-secondary">
-                Contact Me
-            </a>
-        </div>
-
-        <div class="social-links">
-
-            <a href="https://www.linkedin.com/in/pinninti-keerthi-13307434b"
-                target="_blank" rel="noopener noreferrer">
-                <i class="fa-brands fa-linkedin-in"></i>
-            </a>
-
-            <a href="https://github.com/keerthipinninti20"
-                target="_blank" rel="noopener noreferrer">
-                <i class="fa-brands fa-github"></i>
-            </a>
-
-            <a href="mailto:keerthipinninti20@gmail.com">
-                <i class="fa-solid fa-envelope"></i>
-            </a>
-
-        </div>
-
+        <a href="#contact" class="btn secondary-btn">
+            Contact Me
+        </a>
     </div>
 
+    <div class="social-links">
 
-    <div class="hero-visual">
+        <a href="https://www.linkedin.com/in/pinninti-keerthi-13307434b" target="_blank">
+            <i class="fa-brands fa-linkedin-in"></i>
+        </a>
 
-        <div class="code-window">
+        <a href="https://github.com/keerthipinninti20" target="_blank">
+            <i class="fa-brands fa-github"></i>
+        </a>
 
-            <div class="window-header">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-
-            <div class="code-content">
-                <p><span class="purple">const</span> developer = {</p>
-
-                <p class="indent">
-                    name: <span class="green">"Keerthi"</span>,
-                </p>
-
-                <p class="indent">
-                    role: <span class="green">"Software Developer"</span>,
-                </p>
-
-                <p class="indent">
-                    passion: <span class="green">"Technology"</span>,
-                </p>
-
-                <p class="indent">
-                    status: <span class="blue">"Learning"</span>
-                </p>
-
-                <p>};</p>
-            </div>
-
-        </div>
+        <a href="mailto:keerthipinninti20@gmail.com">
+            <i class="fa-solid fa-envelope"></i>
+        </a>
 
     </div>
 
 </section>
 
 
+<!-- ABOUT -->
 <section id="about" class="section">
 
-    <div class="section-heading">
-        <p class="section-tag">ABOUT ME</p>
+    <div class="section-title">
+        <p>ABOUT ME</p>
         <h2>Turning curiosity into <span>skills.</span></h2>
     </div>
 
-    <div class="about-grid">
+    <div class="about-container">
 
         <div class="about-text">
-
             <p>
                 I am a curious and determined Computer Science and Software Engineering
                 student with a strong interest in technology and problem-solving.
@@ -148,44 +102,34 @@
 
             <p>
                 My goal is to become a skilled software developer and contribute
-                to meaningful digital solutions.
+                to meaningful digital solutions through technology.
             </p>
-
         </div>
-
 
         <div class="about-cards">
 
-            <div class="about-card">
+            <div class="info-card">
                 <i class="fa-solid fa-graduation-cap"></i>
-                <div>
-                    <span>Education</span>
-                    <strong>B.Tech - CSSE</strong>
-                </div>
+                <h3>B.Tech CSSE</h3>
+                <p>Computer Science & Software Engineering</p>
             </div>
 
-            <div class="about-card">
-                <i class="fa-solid fa-chart-simple"></i>
-                <div>
-                    <span>CGPA</span>
-                    <strong>8.89</strong>
-                </div>
+            <div class="info-card">
+                <i class="fa-solid fa-chart-line"></i>
+                <h3>8.89 CGPA</h3>
+                <p>Current Academic Performance</p>
             </div>
 
-            <div class="about-card">
+            <div class="info-card">
+                <i class="fa-solid fa-code"></i>
+                <h3>4+ Projects</h3>
+                <p>Projects & Practical Learning</p>
+            </div>
+
+            <div class="info-card">
                 <i class="fa-solid fa-calendar"></i>
-                <div>
-                    <span>Graduation</span>
-                    <strong>2028</strong>
-                </div>
-            </div>
-
-            <div class="about-card">
-                <i class="fa-solid fa-bullseye"></i>
-                <div>
-                    <span>Focus</span>
-                    <strong>Software Development</strong>
-                </div>
+                <h3>2028</h3>
+                <p>Expected Graduation</p>
             </div>
 
         </div>
@@ -195,46 +139,122 @@
 </section>
 
 
-<section id="skills" class="section section-dark">
+<!-- STATS -->
+<section class="stats-section">
 
-    <div class="section-heading light-heading">
-        <p class="section-tag">MY TOOLKIT</p>
+    <div class="stats-container">
+
+        <div class="stat-card">
+            <h2>200+</h2>
+            <p>Problems Practiced</p>
+        </div>
+
+        <div class="stat-card">
+            <h2>4+</h2>
+            <p>Projects Worked On</p>
+        </div>
+
+        <div class="stat-card">
+            <h2>8.89</h2>
+            <p>Current CGPA</p>
+        </div>
+
+        <div class="stat-card">
+            <h2>2028</h2>
+            <p>Expected Graduation</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- SKILLS -->
+<section id="skills" class="section light-section">
+
+    <div class="section-title">
+        <p>MY SKILLS</p>
         <h2>Skills I'm <span>building with.</span></h2>
     </div>
 
     <div class="skills-grid">
 
-        <div class="skill-card"><i class="fa-brands fa-python"></i><h3>Python</h3></div>
-        <div class="skill-card"><i class="fa-brands fa-java"></i><h3>Java</h3></div>
-        <div class="skill-card"><i class="fa-brands fa-js"></i><h3>JavaScript</h3></div>
-        <div class="skill-card"><i class="fa-brands fa-html5"></i><h3>HTML</h3></div>
-        <div class="skill-card"><i class="fa-brands fa-css3-alt"></i><h3>CSS</h3></div>
-        <div class="skill-card"><i class="fa-solid fa-database"></i><h3>SQL</h3></div>
-        <div class="skill-card"><i class="fa-brands fa-git-alt"></i><h3>Git</h3></div>
-        <div class="skill-card"><i class="fa-brands fa-github"></i><h3>GitHub</h3></div>
-        <div class="skill-card"><i class="fa-solid fa-chart-column"></i><h3>Data Analysis</h3></div>
-        <div class="skill-card"><i class="fa-solid fa-chart-pie"></i><h3>Data Visualization</h3></div>
-        <div class="skill-card"><i class="fa-solid fa-puzzle-piece"></i><h3>Problem Solving</h3></div>
-        <div class="skill-card"><i class="fa-solid fa-brain"></i><h3>Continuous Learning</h3></div>
+        <div class="skill-card">
+            <i class="fa-brands fa-python"></i>
+            <h3>Python</h3>
+        </div>
+
+        <div class="skill-card">
+            <i class="fa-brands fa-java"></i>
+            <h3>Java</h3>
+        </div>
+
+        <div class="skill-card">
+            <i class="fa-brands fa-js"></i>
+            <h3>JavaScript</h3>
+        </div>
+
+        <div class="skill-card">
+            <i class="fa-brands fa-html5"></i>
+            <h3>HTML</h3>
+        </div>
+
+        <div class="skill-card">
+            <i class="fa-brands fa-css3-alt"></i>
+            <h3>CSS</h3>
+        </div>
+
+        <div class="skill-card">
+            <i class="fa-solid fa-database"></i>
+            <h3>SQL</h3>
+        </div>
+
+        <div class="skill-card">
+            <i class="fa-brands fa-git-alt"></i>
+            <h3>Git</h3>
+        </div>
+
+        <div class="skill-card">
+            <i class="fa-brands fa-github"></i>
+            <h3>GitHub</h3>
+        </div>
+
+        <div class="skill-card">
+            <i class="fa-solid fa-chart-column"></i>
+            <h3>Data Analysis</h3>
+        </div>
+
+        <div class="skill-card">
+            <i class="fa-solid fa-chart-pie"></i>
+            <h3>Data Visualization</h3>
+        </div>
+
+        <div class="skill-card">
+            <i class="fa-solid fa-puzzle-piece"></i>
+            <h3>Problem Solving</h3>
+        </div>
+
+        <div class="skill-card">
+            <i class="fa-solid fa-brain"></i>
+            <h3>Continuous Learning</h3>
+        </div>
 
     </div>
 
 </section>
 
 
+<!-- PROJECTS -->
 <section id="projects" class="section">
 
-    <div class="section-heading">
-        <p class="section-tag">MY WORK</p>
-        <h2>Projects I've <span>worked on.</span></h2>
+    <div class="section-title">
+        <p>MY PROJECTS</p>
+        <h2>Things I've <span>worked on.</span></h2>
     </div>
 
     <div class="projects-grid">
 
-        <article class="project-card">
-
-            <div class="project-number">01</div>
-
+        <div class="project-card">
             <div class="project-icon">
                 <i class="fa-solid fa-wand-magic-sparkles"></i>
             </div>
@@ -246,19 +266,15 @@
                 and effective prompts for different topics.
             </p>
 
-            <div class="tech-tags">
+            <div class="tags">
                 <span>HTML</span>
                 <span>CSS</span>
                 <span>JavaScript</span>
             </div>
+        </div>
 
-        </article>
 
-
-        <article class="project-card">
-
-            <div class="project-number">02</div>
-
+        <div class="project-card">
             <div class="project-icon">
                 <i class="fa-solid fa-chart-column"></i>
             </div>
@@ -267,23 +283,19 @@
 
             <p>
                 A project focused on analyzing datasets and presenting meaningful
-                patterns and insights through visualizations.
+                insights through charts and visualizations.
             </p>
 
-            <div class="tech-tags">
+            <div class="tags">
                 <span>Python</span>
                 <span>Pandas</span>
                 <span>NumPy</span>
                 <span>Matplotlib</span>
             </div>
+        </div>
 
-        </article>
 
-
-        <article class="project-card">
-
-            <div class="project-number">03</div>
-
+        <div class="project-card">
             <div class="project-icon">
                 <i class="fa-solid fa-user"></i>
             </div>
@@ -292,22 +304,18 @@
 
             <p>
                 A responsive professional portfolio website showcasing my skills,
-                projects, achievements, education, and learning journey.
+                projects, education, achievements, and learning journey.
             </p>
 
-            <div class="tech-tags">
+            <div class="tags">
                 <span>HTML</span>
                 <span>CSS</span>
                 <span>JavaScript</span>
             </div>
+        </div>
 
-        </article>
 
-
-        <article class="project-card">
-
-            <div class="project-number">04</div>
-
+        <div class="project-card">
             <div class="project-icon">
                 <i class="fa-solid fa-laptop"></i>
             </div>
@@ -315,73 +323,117 @@
             <h3>Responsive Landing Page</h3>
 
             <p>
-                A modern and responsive landing page designed with a clean
-                interface and user-friendly layout.
+                A modern and responsive landing page designed with a clean layout
+                and user-friendly interface.
             </p>
 
-            <div class="tech-tags">
+            <div class="tags">
                 <span>HTML</span>
                 <span>CSS</span>
                 <span>Responsive Design</span>
             </div>
-
-        </article>
+        </div>
 
     </div>
 
 </section>
 
 
-<section id="achievements" class="section achievements-section">
+<!-- EDUCATION -->
+<section id="education" class="section light-section">
 
-    <div class="section-heading">
-        <p class="section-tag">MILESTONES</p>
-        <h2>Achievements & <span>experience.</span></h2>
+    <div class="section-title">
+        <p>EDUCATION</p>
+        <h2>My academic <span>journey.</span></h2>
     </div>
 
-    <div class="achievements-grid">
+    <div class="education-grid">
+
+        <div class="education-card">
+            <i class="fa-solid fa-university"></i>
+
+            <h3>Bachelor of Technology</h3>
+
+            <h4>Computer Science & Software Engineering</h4>
+
+            <p>2024 - 2028</p>
+
+            <span>CGPA: 8.89</span>
+        </div>
+
+
+        <div class="education-card">
+            <i class="fa-solid fa-building-columns"></i>
+
+            <h3>Intermediate</h3>
+
+            <h4>Sri Chaitanya Junior College</h4>
+
+            <p>Higher Secondary Education</p>
+
+            <span>Percentage: 97%</span>
+        </div>
+
+
+        <div class="education-card">
+            <i class="fa-solid fa-school"></i>
+
+            <h3>Secondary School Certificate</h3>
+
+            <h4>Havani High School</h4>
+
+            <p>SSC Education</p>
+
+            <span>Percentage: 88.17%</span>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ACHIEVEMENTS -->
+<section class="section">
+
+    <div class="section-title">
+        <p>ACHIEVEMENTS</p>
+        <h2>Milestones I'm <span>proud of.</span></h2>
+    </div>
+
+    <div class="achievement-grid">
 
         <div class="achievement-card">
-
-            <div class="achievement-icon">
-                <i class="fa-solid fa-users"></i>
-            </div>
+            <i class="fa-solid fa-users"></i>
 
             <h3>Internshala Student Partner</h3>
 
             <p>
-                Selected as an Internshala Student Partner, gaining experience
-                in student engagement and career opportunities.
+                Selected as an Internshala Student Partner and gained exposure
+                to student engagement and career opportunities.
             </p>
-
-        </div>
-
-
-        <div class="achievement-card highlight-card">
-
-            <div class="achievement-number">200+</div>
-
-            <h3>Problems Practiced</h3>
-
-            <p>
-                Actively practicing programming and problem-solving on CodeChef.
-            </p>
-
         </div>
 
 
         <div class="achievement-card">
+            <i class="fa-solid fa-code"></i>
 
-            <div class="achievement-icon">
-                <i class="fa-solid fa-award"></i>
-            </div>
+            <h3>200+ Problems Practiced</h3>
 
-            <h3>Academic Performance</h3>
+            <p>
+                Actively practicing programming and problem-solving through
+                coding platforms such as CodeChef.
+            </p>
+        </div>
+
+
+        <div class="achievement-card">
+            <i class="fa-solid fa-award"></i>
+
+            <h3>Strong Academic Performance</h3>
 
             <p>
                 Maintaining a CGPA of 8.89 in Computer Science and Software Engineering.
             </p>
-
         </div>
 
     </div>
@@ -389,122 +441,109 @@
 </section>
 
 
-<section class="section">
+<!-- CERTIFICATIONS -->
+<section id="certifications" class="section light-section">
 
-    <div class="section-heading">
-        <p class="section-tag">EDUCATION</p>
-        <h2>My academic <span>journey.</span></h2>
+    <div class="section-title">
+        <p>CERTIFICATIONS & LEARNING</p>
+        <h2>My learning <span>journey.</span></h2>
     </div>
 
-    <div class="education-card">
-
-        <div class="education-year">
-            2024<br>—<br>2028
-        </div>
-
-        <div class="education-content">
-
-            <div class="education-icon">
-                <i class="fa-solid fa-university"></i>
-            </div>
-
-            <div>
-                <h3>Bachelor of Technology</h3>
-
-                <h4>Computer Science & Software Engineering</h4>
-
-                <p>
-                    Building a strong foundation in programming, software development,
-                    databases, problem-solving, and modern technologies.
-                </p>
-
-                <span class="cgpa-badge">CGPA: 8.89</span>
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<section id="certifications" class="section section-light">
-
-    <div class="section-heading">
-        <p class="section-tag">LEARNING JOURNEY</p>
-        <h2>Courses & <span>certifications.</span></h2>
-    </div>
-
-    <div class="certifications-grid">
+    <div class="certification-grid">
 
         <div class="certificate-card">
+            <i class="fa-brands fa-python"></i>
 
-            <div class="certificate-icon">
-                <i class="fa-solid fa-network-wired"></i>
-            </div>
+            <small>ANALYTICS VIDHYA</small>
 
-            <p class="certificate-org">CISCO NETWORKING ACADEMY</p>
+            <h3>Introduction to Python</h3>
 
-            <h3>Networking Course</h3>
+            <p>
+                Completed the Introduction to Python course and gained knowledge
+                in Python fundamentals and programming concepts.
+            </p>
+
+            <span class="completed">Completed</span>
+        </div>
+
+
+        <div class="certificate-card">
+            <i class="fa-solid fa-code"></i>
+
+            <small>EDUSKILLS</small>
+
+            <h3>Web Development</h3>
+
+            <p>
+                Completed a Web Development learning program and gained practical
+                knowledge in web development concepts.
+            </p>
+
+            <span class="completed">Completed</span>
+        </div>
+
+
+        <div class="certificate-card">
+            <i class="fa-solid fa-network-wired"></i>
+
+            <small>CISCO NETWORKING ACADEMY</small>
+
+            <h3>Networking</h3>
 
             <p>
                 Currently learning networking concepts and building knowledge
                 in computer networks.
             </p>
 
+            <span class="learning">Currently Learning</span>
         </div>
 
 
         <div class="certificate-card">
+            <i class="fa-solid fa-book"></i>
 
-            <div class="certificate-icon">
-                <i class="fa-solid fa-certificate"></i>
-            </div>
+            <small>NPTEL</small>
 
-            <p class="certificate-org">NPTEL</p>
-
-            <h3>Technical Course</h3>
+            <h3>Technical Learning</h3>
 
             <p>
-                Completed a technical learning course through NPTEL and
-                continuing to strengthen academic knowledge.
+                Exploring technical concepts and strengthening knowledge
+                through structured online learning.
             </p>
 
+            <span class="learning">Learning</span>
         </div>
 
+    </div>
 
-        <div class="certificate-card">
-
-            <div class="certificate-icon">
-                <i class="fa-solid fa-laptop-code"></i>
-            </div>
-
-            <p class="certificate-org">EDUSKILLS</p>
-
-            <h3>Technical Learning Program</h3>
-
-            <p>
-                Completed a skill development program focused on improving
-                practical and industry-relevant technical knowledge.
-            </p>
-
-        </div>
+</section>
 
 
-        <div class="certificate-card">
+<!-- CURRENTLY EXPLORING -->
+<section class="exploring-section">
 
-            <div class="certificate-icon">
-                <i class="fa-solid fa-book-open"></i>
-            </div>
+    <div class="exploring-content">
 
-            <p class="certificate-org">CONTINUOUS LEARNING</p>
+        <p>CURRENTLY EXPLORING</p>
 
-            <h3>Currently Learning</h3>
+        <h2>Always learning something <span>new.</span></h2>
 
-            <p>
-                Continuously exploring programming, software development,
-                data analysis, and modern technologies.
-            </p>
+        <h4>
+            Currently exploring new technologies and improving my practical
+            development skills through continuous learning.
+        </h4>
+
+        <div class="exploring-tags">
+
+            <span>
+                <i class="fa-brands fa-java"></i>
+                Java
+            </span>
+
+            <span>
+                <i class="fa-solid fa-layer-group"></i>
+                Full Stack Web Development
+            </span>
 
         </div>
 
@@ -513,38 +552,39 @@
 </section>
 
 
+<!-- CONTACT -->
 <section id="contact" class="contact-section">
 
     <div class="contact-content">
 
-        <p class="section-tag">GET IN TOUCH</p>
+        <p>GET IN TOUCH</p>
 
-        <h2>Let's connect and <span>grow.</span></h2>
+        <h2>Let's connect and <span>grow together.</span></h2>
 
-        <p>
-            I am open to learning opportunities, internships, collaborations,
+        <h4>
+            Open to learning opportunities, internships, collaborations,
             and meaningful professional connections.
-        </p>
+        </h4>
 
         <div class="contact-buttons">
 
-            <a href="mailto:keerthipinninti20@gmail.com" class="btn btn-primary">
+            <a href="mailto:keerthipinninti20@gmail.com" class="btn primary-btn">
                 <i class="fa-solid fa-envelope"></i>
                 Email Me
             </a>
 
             <a href="https://www.linkedin.com/in/pinninti-keerthi-13307434b"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="btn btn-outline">
-                <i class="fa-brands fa-linkedin-in"></i>
+               target="_blank"
+               class="btn secondary-btn">
+
+                <i class="fa-brands fa-linkedin"></i>
                 LinkedIn
             </a>
 
             <a href="https://github.com/keerthipinninti20"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="btn btn-outline">
+               target="_blank"
+               class="btn secondary-btn">
+
                 <i class="fa-brands fa-github"></i>
                 GitHub
             </a>
@@ -556,21 +596,14 @@
 </section>
 
 
+<!-- FOOTER -->
 <footer>
 
-    <div class="footer-content">
+    <h3>Keerthi<span>.</span></h3>
 
-        <a href="#home" class="logo">
-            Keerthi<span>.</span>
-        </a>
+    <p>© 2026 Pinninti Keerthi. All Rights Reserved.</p>
 
-        <p>© 2026 Pinninti Keerthi. All Rights Reserved.</p>
-
-        <p class="footer-small">
-            Designed & Built by Keerthi
-        </p>
-
-    </div>
+    <small>Designed & Built by Keerthi</small>
 
 </footer>
 
